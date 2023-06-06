@@ -1,0 +1,74 @@
+@font-face {
+    font-family: AnonymousPro;
+    src: url("../fonts/AnonymousPro-Regular.ttf");
+}
+
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 30px 50px 0 50px;
+
+}
+
+header img{
+    width: 200px;
+    height: 150px;
+    padding: 0 10px 0 10px;
+}
+
+h1{
+    font-family: AnonymousPro;
+    font-size: 20px;
+    text-align: center;
+    padding: 21px 58px 20px 80px;
+}
+
+h2{
+    font-family: AnonymousPro;
+    font-size: 40px;
+    text-align: center;
+    padding: 21px 58px 20px 80px;
+}
+
+p{
+    font-family: AnonymousPro;
+    font-size: 20px;
+    text-align:left;
+    padding: 21px 58px 0 80px;
+}
+
+nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+nav li{
+    padding: 35px 30px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a{
+    color: blue;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: rgb(45, 210, 30);
+}
