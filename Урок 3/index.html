@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ‼️ Создайте всплывающее окно, которое спрашивает ввод любимого фильма и если ввод неверен, 
+        // то программа отправляет запрос alert “Попробуйте ещё раз”. В функции должны быть минимум 2 условия. 
+        // Не просто использовуйте prompt или alert или confirm, а создайте свою функцию, пример: "function Вашеимяфункциитут()"‼️
+    
+        name = prompt("Введи название фильма")
+        Film(name)
+
+        function Film(name)
+        {
+            trueName = "Брилиантовая рука"
+            while(name != trueName)
+            {
+                alert("Попробуй ещё раз.")
+                name = prompt("Введи название фильма")
+            }
+            alert("Это правда!");
+        }
+    </script>
+</body>
+</html>
